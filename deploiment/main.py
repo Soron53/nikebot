@@ -1,15 +1,7 @@
-from os import urandom
-import tarfile
-from bs4 import BeautifulSoup
-from pyrsistent import m
-from regex import P
+
 import requests;
-import re;
 import twitter;
 from time import sleep
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from numpy import size
 import requests, json
 
 class NikeScraper():
